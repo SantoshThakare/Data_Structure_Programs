@@ -3,25 +3,19 @@ whatever goes last comes out first
 """
 class Stack(object):
     def __init__(self):
+
         self.item =[]
+
     def push(self,item=''):
-        """
-        push the element at the last index
-        return: none
-        """
+
         self.item.append(item)
+
     def pop(self):
-        """
-        this will remove last item
-        return: none
-        """
+
         self.item.pop()
         pass
     def peek(self):
-        """
-        Allows us to see the last elements
-        :return: last item
-        """
+
         if self.item:
             return self.item[-1]
         else:
@@ -35,10 +29,7 @@ class Stack(object):
             return None
 
     def isempty(self):
-        """
-        tells whether the stack is empty or not
-        :return :  bool value
-        """
+
         if self.item == []:
             return True
         else:
