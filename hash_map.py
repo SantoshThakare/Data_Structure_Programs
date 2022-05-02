@@ -31,7 +31,6 @@ class HashMaping:
             print(i, end=" ")
         print()
 
-
 if __name__ == "__main__":
     hash_obj = HashMaping()
     input_list = [3, 8, 12, 20, 28, 38, 42]
@@ -42,6 +41,7 @@ if __name__ == "__main__":
     hash_obj.display_hash()
     in_num = 42
     check = hash_obj.remove(in_num)
+
     if not check:
         hash_obj.add_num(in_num)
     hash_obj.display_hash()
