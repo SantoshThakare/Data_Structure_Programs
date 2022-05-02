@@ -16,8 +16,10 @@ class Queques:
         else:
             print("\n Insufficient balance  ")
 
+
     def display(self):
         print("\n Net Available Balance=", self.balance)
+
 
     def _exit(self):
         exit()
