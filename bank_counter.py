@@ -11,7 +11,7 @@ class Queques:
     def dequeue_withdraw(self):
         amount = float(input("Enter amount to be Withdrawn: "))
         if self.balance >= amount:
-            self.balance -= amount
+            self.balance -= hash_map.pyamount
             print("\n You Withdrew:", amount)
         else:
             print("\n Insufficient balance  ")
