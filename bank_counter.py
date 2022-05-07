@@ -23,7 +23,6 @@ class Queue:
     def queue_exit(self):
         exit()
 
-
 if __name__ == '__main__':
     q = Queue()
     while True:
